@@ -1,0 +1,17 @@
+{
+  "name": "sistem-design",
+  "version": "1.0.0",
+  "description": "Design System",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "eCituk",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}
