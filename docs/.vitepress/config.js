@@ -6,7 +6,7 @@ const config = {
   lang: 'es_MX',
     title: 'Sistema de diseño',
     description: 'Vite & Vue powered static site generator.',
-  
+    // cleanUrls: true,
     themeConfig: {
       nav: [
       //   { text: 'Example', link: '/example' },
