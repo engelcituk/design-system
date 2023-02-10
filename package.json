@@ -11,7 +11,12 @@
   "author": "eCituk",
   "license": "ISC",
   "devDependencies": {
+    "mermaid": "^9.3.0",
     "vitepress": "^1.0.0-alpha.45",
+    "vitepress-plugin-mermaid": "^2.0.10",
     "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-mindmap": "^9.3.0"
   }
 }
