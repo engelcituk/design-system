@@ -25,6 +25,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Bases',
+        collapsed: false,
         items: [
           { text: 'Colores', link: '/guide/colors' },    
           { text: 'Tipografía', link: '/guide/typography' },                    
@@ -33,10 +34,35 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Bases',
+        text: 'CSS Básico Intro',
+        collapsed: true,
         items: [
-          { text: 'Colores', link: '/guide/colors' },    
-          { text: 'Tipografía', link: '/guide/typography' },                    
+          { text: 'Selectores', link: '/guide/css/basic/selectors' },    
+          { text: 'Pseudo-clases', link: '/guide/typography' },                    
+          { text: 'Pseudo-elementos', link: '/guide/typography' },                    
+          { text: 'Especificidad', link: '/guide/typography' },                    
+          { text: 'Valores y unidades', link: '/guide/typography' },                    
+          { text: 'Propiedades y texto', link: '/guide/typography' },                    
+          { text: 'Box Model',
+            items:[
+              { text: 'Margin', link: '/guide/typography' },                    
+              { text: 'Padding', link: '/guide/typography' },                    
+              { text: 'Box-sizing', link: '/guide/typography' },                    
+              { text: 'Border Radius', link: '/guide/typography' },                    
+            ]
+          },
+          { text: 'Outline', link: '/guide/typography' },                    
+          { text: 'Background', link: '/guide/typography' },                    
+          { text: 'Gradientes', link: '/guide/typography' },                    
+          { text: 'Box shadow', link: '/guide/typography' },                    
+          { text: 'Variables', link: '/guide/typography' },                    
+          { text: 'Posicionamiento', link: '/guide/typography' },                    
+          { text: 'Overflow', link: '/guide/typography' },                    
+          { text: 'Display', link: '/guide/typography' },                    
+          { text: 'Flexbox', link: '/guide/typography' },                    
+          { text: 'Grid', link: '/guide/typography' },                    
+          { text: 'Animaciones', link: '/guide/typography' },                    
+
         ],
       },
     ],
