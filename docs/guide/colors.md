@@ -14,3 +14,4 @@ Esto son los colores primarios:
 
 <ColorsShades/>
 
+## Gradientes

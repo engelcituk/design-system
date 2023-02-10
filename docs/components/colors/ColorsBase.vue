@@ -9,7 +9,7 @@
         <div class="colors__base">
             <div class="color__base blue" ref="blue" @click="copyColor" >#003CFF</div>        
             <div class="color__base pink" ref="pink" @click="copyColor" >#FA0082</div>        
-            <div class="color__base green" ref="green" @click="copyColor" >#4a4754</div>        
+            <div class="color__base green" ref="green" @click="copyColor" >#1EE9B6</div>        
             <div class="color__base yellow" ref="yellow" @click="copyColor" >#FFDE54</div>        
             <div class="color__base orange" ref="orange" @click="copyColor">#FF6E01</div>        
             <div class="color__base red" ref="red" @click="copyColor">#F42829</div>        
