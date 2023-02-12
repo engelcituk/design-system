@@ -6,7 +6,7 @@ const config = {
   lang: 'es_MX',
     title: 'Sistema de diseño',
     description: 'Vite & Vue powered static site generator.',
-    // cleanUrls: true,
+  
     themeConfig: {
       nav: [
       //   { text: 'Example', link: '/example' },
@@ -39,7 +39,7 @@ const config = {
           collapsed: true,
           items: [
             { text: 'Selectores', link: '/guide/css/basic/selectors' },    
-            { text: 'Pseudo-clases', link: '/guide/typography' },                    
+            { text: 'Pseudo-clases', link: '/guide/css/basic/pseudoclases' },                    
             { text: 'Pseudo-elementos', link: '/guide/typography' },                    
             { text: 'Especificidad', link: '/guide/typography' },                    
             { text: 'Valores y unidades', link: '/guide/typography' },                    
@@ -71,5 +71,4 @@ const config = {
 }
 
 
-// export default defineConfig(config)
 export default defineConfig(config)

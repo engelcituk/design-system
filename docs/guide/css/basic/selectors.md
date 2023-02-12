@@ -123,3 +123,39 @@ Ahora vamos a entender como funciona la estructura de un documento HTML, para as
 </body>
 </html>
 ```
+
+![Estructura html](../../../imgs/guide/css/basic/selector-descendiente.png "Estructura html")
+
+El primer beneficio de comprender los selectores descendientes es poder definirlos. Por ejemplo, hagamos de cuenta que tenemos muchos **h1**  con **em** como hijos y quisieramos estilar esos **em**, en ves de colocar una clase a cada em, la forma más sencilla sería:
+
+```css
+h1 em{
+    color: gray;
+}
+```
+
+Esto quiere decir que todos los **em** definidos dentro de un **h1** serán de color gris. Esto no se limita a solo dos selectores. Por ejemplo:
+
+```css
+ul ol ul em {
+    color:gray;
+}
+```
+
+Esto es: cualquier **em** que sea parte de una lista desordenada que sea parte de una lista ordenada que sea parte de una lista desordenada será gris.
+
+En algunos casos, no deseamos selecccionar "cualquier"  elemento descendiente, sino un elementos hijo de otro elemento. Veamos: queremos seleccionar el elemento **strong** solo si es hijo de un **h1**. Para hacer eso usamos el simbolo **>**.
+
+```css
+h1 > strong {
+    color: gray;
+}
+```
+
+Esta regla se aplicará al **strong** del primer **h1** pero no el segundo
+
+```html
+<h1>Esto es <strong>muy</strong> importante.</h1>
+<h1>Esto es <em>realmente <strong>muy</strong></em>importante.</h1>
+
+```
