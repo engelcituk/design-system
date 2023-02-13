@@ -5,18 +5,19 @@ const toaster = createToaster()
 
 const useCopy = () => {
 
-    const copyContent = async (elementToCopy) => {
+    const copyGradient = async ( gradientToCopy) => {
         try {
-            const toCopy = gradients[elementToCopy]
+            const toCopy = gradients[gradientToCopy]
+            
             await navigator.clipboard.writeText(toCopy)
-            toaster.show(`${elementToCopy} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            toaster.show(`${gradientToCopy} copiado`,{type: 'success', position: 'top-right', duration: 2000})
         } catch($e) {
             console.log($e)
         }
     }
 
     return {
-        copyContent
+        copyGradient
     }
 
   }
