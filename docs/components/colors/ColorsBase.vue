@@ -1,20 +1,20 @@
 <script setup>
-    const copyColor = () => {
-        console.log('copyColor')
-    }
+    import useCopy from '../../composables/useCopy'
+    const { copyBaseColor } = useCopy()
+
 </script>
 
 <template>
     <div class="container">
         <div class="colors__base">
-            <div class="color__base blue" ref="blue" @click="copyColor" >#003CFF</div>        
-            <div class="color__base pink" ref="pink" @click="copyColor" >#FA0082</div>        
-            <div class="color__base green" ref="green" @click="copyColor" >#1EE9B6</div>        
-            <div class="color__base yellow" ref="yellow" @click="copyColor" >#FFDE54</div>        
-            <div class="color__base orange" ref="orange" @click="copyColor">#FF6E01</div>        
-            <div class="color__base red" ref="red" @click="copyColor">#F42829</div>        
-            <div class="color__base purple" ref="purple" @click="copyColor">#D96FF8</div>        
-            <div class="color__base gray" ref="gray" @click="copyColor">#1D1929</div>        
+            <div class="color__base blue" ref="blue" @click="copyBaseColor('blue')" >#003CFF</div>        
+            <div class="color__base pink" ref="pink" @click="copyBaseColor('pink')" >#FA0082</div>        
+            <div class="color__base green" ref="green" @click="copyBaseColor('green')" >#1EE9B6</div>        
+            <div class="color__base yellow" ref="yellow" @click="copyBaseColor('yellow')" >#FFDE54</div>        
+            <div class="color__base orange" ref="orange" @click="copyBaseColor('orange')">#FF6E01</div>        
+            <div class="color__base red" ref="red" @click="copyBaseColor('red')">#F42829</div>        
+            <div class="color__base purple" ref="purple" @click="copyBaseColor('purple')">#D96FF8</div>        
+            <div class="color__base gray" ref="gray" @click="copyBaseColor('gray')">#1D1929</div>        
         </div>    
     </div>
 </template>
