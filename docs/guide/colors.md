@@ -3,8 +3,6 @@
 import ColorsBase from '../components/colors/ColorsBase.vue'
 import ColorsShades from '../components/colors/ColorsShades.vue'
 import Gradients from '../components/colors/Gradients.vue'
-
-
 </script>
 
 # Paleta de colores base
