@@ -1,6 +1,4 @@
 import { defineConfig } from 'vitepress';
-import { withMermaid } from "vitepress-plugin-mermaid";
-
 // refer https://vitepress.vuejs.org/config/introduction for details
 const config = {
   lang: 'es_MX',
@@ -40,7 +38,7 @@ const config = {
           items: [
             { text: 'Selectores', link: '/guide/css/basic/selectors' },    
             { text: 'Pseudo-clases', link: '/guide/css/basic/pseudoclases' },                    
-            { text: 'Pseudo-elementos', link: '/guide/typography' },                    
+            { text: 'Pseudo-elementos', link: '/guide/css/basic/pseudoelementos' },                    
             { text: 'Especificidad', link: '/guide/typography' },                    
             { text: 'Valores y unidades', link: '/guide/typography' },                    
             { text: 'Propiedades y texto', link: '/guide/typography' },                    

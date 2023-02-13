@@ -2,14 +2,14 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  name: Diario de aprendizaje
+  text: Conociemientos para frontend.
+  tagline: Snippets Css, Javascript, TypeScript, Git, todo lo relacionado que pueda ayudar a alguien para frontend.
   actions:
     - theme: brand
-      text: Get Started
+      text: Iniciar
       link: /guide/getting-started
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: Ver en GitHub
+      link: https://github.com/engelcituk/design-system
 ---
