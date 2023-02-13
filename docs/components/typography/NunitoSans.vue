@@ -1,11 +1,5 @@
-<script>
-    export default {
-        
-    }
-</script>
-
 <template>
-        <!-- La Tierra es el tercer planeta desde el Sol y el único objeto astronómico conocido donde se puede leer One Piece. Kaizoku-ou ni ore wa naru. -->
+        <!---->
     <div class="container">
         <div class="typography__content">
 

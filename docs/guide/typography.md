@@ -1,5 +1,6 @@
 <script setup>
     import NunitoSans from '../components/typography/NunitoSans.vue'
+    import FontStyles from '../components/typography/FontStyles.vue'
     
 </script>
 # Tipografía
@@ -11,3 +12,5 @@ Nunito es una superfamilia tipográfica sans serif bien equilibrada, con dos ver
 <NunitoSans/>
 
 ## Estilos de fuente
+
+<FontStyles/>
