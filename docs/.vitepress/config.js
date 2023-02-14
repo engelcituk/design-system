@@ -4,7 +4,7 @@ const config = {
   lang: 'es_MX',
     title: 'Sistema de diseño',
     description: 'Vite & Vue powered static site generator.',
-  
+    base: '/frontend-docs/',
     themeConfig: {
       nav: [
       //   { text: 'Example', link: '/example' },
