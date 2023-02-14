@@ -1,7 +1,7 @@
-import { createToaster } from "@meforma/vue-toaster"
+// import { createToaster } from "@meforma/vue-toaster"
 import { gradients, baseColors, colorShades } from "../data/colors"
 
-const toaster = createToaster()
+// const toaster = createToaster()
 
 const useCopy = () => {
 
@@ -10,7 +10,7 @@ const useCopy = () => {
             const toCopy = gradients[gradientToCopy]
             
             await navigator.clipboard.writeText(toCopy)
-            toaster.show(`${gradientToCopy} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            // toaster.show(`${gradientToCopy} copiado`,{type: 'success', position: 'top-right', duration: 2000})
         } catch($e) {
             console.log($e)
         }
@@ -22,7 +22,7 @@ const useCopy = () => {
             
             await navigator.clipboard.writeText(toCopy.code)
 
-            toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            // toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
         } catch($e) {
             console.log($e)
         }
@@ -34,7 +34,7 @@ const useCopy = () => {
             
             await navigator.clipboard.writeText(toCopy.code)
 
-            toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            // toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
         } catch($e) {
             console.log($e)
         }

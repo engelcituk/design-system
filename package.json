@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Design System",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
