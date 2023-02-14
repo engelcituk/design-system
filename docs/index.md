@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Iniciar
-      link: /guide/getting-started
+      link: /guide/index
     - theme: alt
       text: Ver en GitHub
       link: https://github.com/engelcituk/design-system

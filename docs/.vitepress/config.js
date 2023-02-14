@@ -4,7 +4,7 @@ const config = {
   lang: 'es_MX',
     title: 'Frontend Docs',
     description: 'Documentación de aprendizaje para un frontend developer.',
-    base: '/frontend-docs/',
+    // base: '/frontend-docs/',
     themeConfig: {
       nav: [
       //   { text: 'Example', link: '/example' },
