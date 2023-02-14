@@ -424,10 +424,38 @@
 .icons{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(20, 1fr);
     gap: 2rem;
 }
+@media  (min-width:540px) {
+    .icons{
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+    }
+}
+
+@media  (min-width:768px) {
+    .icons{
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(14, 1fr);
+    }
+}
+
+@media  (min-width:1200px) {
+    .icons{
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
+
+@media  (min-width:1400px) {
+    .icons{
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(11, 1fr);
+    }
+}
+
 
 .icon__basic{
     cursor: pointer;
