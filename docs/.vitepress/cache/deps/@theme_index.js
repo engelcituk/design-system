@@ -1,3 +1,5 @@
+import "./chunk-RSJERJUL.js";
+
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "/Users/citukcaamal/Documents/Front-End-Path/design-system/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 import "/Users/citukcaamal/Documents/Front-End-Path/design-system/node_modules/vitepress/dist/client/theme-default/styles/vars.css";

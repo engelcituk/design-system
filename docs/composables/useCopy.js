@@ -1,4 +1,4 @@
-// import { createToaster } from "@meforma/vue-toaster"
+import Swal from 'sweetalert2'
 import { gradients, baseColors, colorShades } from "../data/colors"
 
 // const toaster = createToaster()
@@ -10,7 +10,13 @@ const useCopy = () => {
             const toCopy = gradients[gradientToCopy]
             
             await navigator.clipboard.writeText(toCopy)
-            // toaster.show(`${gradientToCopy} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            Swal.fire({
+                title: `Gradiente ${gradientToCopy} copiado`,
+                text: `${toCopy}`,
+                icon: 'success',
+                confirmButtonText: 'ok',
+                // timer: 2500
+              })
         } catch($e) {
             console.log($e)
         }
@@ -22,7 +28,13 @@ const useCopy = () => {
             
             await navigator.clipboard.writeText(toCopy.code)
 
-            // toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            Swal.fire({
+                title: `${toCopy.name}  `,
+                text: `Color base ${toCopy.name} ${toCopy.code} copiado `,
+                icon: 'success',
+                confirmButtonText: 'ok',
+                // timer: 2500
+            })
         } catch($e) {
             console.log($e)
         }
@@ -33,8 +45,13 @@ const useCopy = () => {
             const toCopy = colorShades[colorBase][variant]
             
             await navigator.clipboard.writeText(toCopy.code)
-
-            // toaster.show(`${toCopy.name} | ${toCopy.code} copiado`,{type: 'success', position: 'top-right', duration: 2000})
+            Swal.fire({
+                title: `${toCopy.name}  `,
+                text: `Variante color ${toCopy.name} ${toCopy.code} copiado `,
+                icon: 'success',
+                confirmButtonText: 'ok',
+                // timer: 2500
+            })
         } catch($e) {
             console.log($e)
         }

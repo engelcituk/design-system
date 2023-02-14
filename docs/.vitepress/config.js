@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress';
 // refer https://vitepress.vuejs.org/config/introduction for details
 const config = {
   lang: 'es_MX',
-    title: 'Sistema de diseño',
-    description: 'Vite & Vue powered static site generator.',
+    title: 'Frontend Docs',
+    description: 'Documentación de aprendizaje para un frontend developer.',
     base: '/frontend-docs/',
     themeConfig: {
       nav: [

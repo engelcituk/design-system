@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Diario de aprendizaje
-  text: Conociemientos para frontend.
+  text: Conocimientos para frontend.
   tagline: Snippets Css, Javascript, TypeScript, Git, todo lo relacionado que pueda ayudar a alguien para frontend.
   actions:
     - theme: brand
