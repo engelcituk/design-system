@@ -71,6 +71,44 @@
              <path d="M1.25 6.75L7.75 13.75L14.25 6.75M1.25 1.25L7.75 8.25L14.25 1.25" stroke="#1D1929" stroke-linecap="square"/>
             </svg>
 
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.5 8.5L7.5 10.5L5.5 8.5M9.5 5.5L7.5 7.5L5.5 5.5M14.5 7.5C14.5 3.63401 11.366 0.5 7.5 0.5C3.63401 0.5 0.5 3.63401 0.5 7.5C0.5 11.366 3.63401 14.5 7.5 14.5C11.366 14.5 14.5 11.366 14.5 7.5Z" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8L8 10L6 8M10 5L8 7L6 5" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.49997 1L1.49997 7.5L8.49997 14M14 1L6.99997 7.5L14 14" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.5 9.5L4.5 7.5L6.5 5.5M9.5 9.5L7.5 7.5L9.5 5.5M7.5 14.5C11.366 14.5 14.5 11.366 14.5 7.5C14.5 3.63401 11.366 0.5 7.5 0.5C3.63401 0.5 0.5 3.63401 0.5 7.5C0.5 11.366 3.63401 14.5 7.5 14.5Z" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 9.5L5.5 7.5L7.5 5.5M10.5 9.5L8.5 7.5L10.5 5.5" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14L14 7.5L7 1M1.5 14L8.5 7.5L1.5 1" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 9.5L10.5 7.5L8.5 5.5M5.5 9.5L7.5 7.5L5.5 5.5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 9.5L10.5 7.5L8.5 5.5M5.5 9.5L7.5 7.5L5.5 5.5" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.25 8.25L7.75 1.25L1.25 8.25M14.25 13.75L7.75 6.75L1.25 13.75" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+
+
 
 
         </div>    
@@ -91,7 +129,7 @@
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    gap: 1rem;    
+    gap: 2rem;    
     flex-wrap: wrap;
 }
 
