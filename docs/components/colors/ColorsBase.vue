@@ -54,10 +54,18 @@
 
 @media  (min-width:1200px) {
     .colors__base{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media  (min-width:1400px) {
+    .colors__base{
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
 }
+
 .color__base{
     display: flex;
     align-items: center;
