@@ -132,7 +132,6 @@
 
 .black{
     font-weight: 900;
-    
 }
 
 .extra-bold{
