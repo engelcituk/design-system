@@ -53,12 +53,6 @@
     
 }
 
-@media  (min-width:1200px) {
-    .gradients{
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-    }
-}
 
 
 
