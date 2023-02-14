@@ -19,6 +19,10 @@
             </svg>
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.60355 9.10355L9.95711 8.75L9.25 8.04289L8.89645 8.39645L9.60355 9.10355ZM7.25 10.75L6.89645 11.1036L7.25 11.4571L7.60355 11.1036L7.25 10.75ZM5.60355 8.39645L5.25 8.04289L4.54289 8.75L4.89645 9.10355L5.60355 8.39645ZM8.89645 8.39645L6.89645 10.3964L7.60355 11.1036L9.60355 9.10355L8.89645 8.39645ZM7.60355 10.3964L5.60355 8.39645L4.89645 9.10355L6.89645 11.1036L7.60355 10.3964ZM7.75 10.75L7.75 4.25L6.75 4.25L6.75 10.75H7.75Z" fill="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 7.5L5 3.5M1 7.5L5 11.5M1 7.5H13.5" stroke="#1D1929"/>
             </svg>
 
@@ -103,6 +107,7 @@
             <path d="M8.5 9.5L10.5 7.5L8.5 5.5M5.5 9.5L7.5 7.5L5.5 5.5" stroke="#1D1929" stroke-linecap="square"/>
             </svg>
 
+            <!-- double-caret-up -->
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.25 8.25L7.75 1.25L1.25 8.25M14.25 13.75L7.75 6.75L1.25 13.75" stroke="#1D1929" stroke-linecap="square"/>
             </svg>
