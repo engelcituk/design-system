@@ -342,10 +342,70 @@
             <path d="M7.5 9.80416L5.33677 11L5.75 8.46718L4 6.6736L6.41839 6.30434L7.5 4L8.58161 6.30434L11 6.6736L9.25 8.46718L9.66323 11L7.5 9.80416Z" stroke="#1D1929" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
 
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.5 3.5H3.5V11.5H11.5V3.5Z" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5Z" stroke="#1D1929"/>
+            <path d="M9.5 5.5H5.5V9.5H9.5V5.5Z" stroke="#1D1929"/>
+            </svg>
 
 
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.5 5.5H5.5V9.5H9.5V5.5Z" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7L5.5 11.5L14 3" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
 
 
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 7.5L7 10L11 5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 7.5L7 10L11 5" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 6.5V3.5C4.5 1.84315 5.84315 0.5 7.5 0.5C9.15685 0.5 10.5 1.84315 10.5 3.5V4M2.5 6.5H12.5C13.0523 6.5 13.5 6.94772 13.5 7.5V13.5C13.5 14.0523 13.0523 14.5 12.5 14.5H2.5C1.94772 14.5 1.5 14.0523 1.5 13.5V7.5C1.5 6.94772 1.94772 6.5 2.5 6.5Z" stroke="#1D1929"/>
+            </svg>
+
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 6.5H9.5C10.0523 6.5 10.5 6.94772 10.5 7.5V10.5C10.5 11.0523 10.0523 11.5 9.5 11.5H5.5C4.94772 11.5 4.5 11.0523 4.5 10.5V7.5C4.5 6.94772 4.94772 6.5 5.5 6.5ZM5.5 6.5V5.62132C5.5 4.44975 6.44975 3.5 7.62132 3.5C8.18393 3.5 8.7235 3.7235 9.12132 4.12132L9.5 4.5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929"/>
+            </svg>
+
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5 6.5H9.5C10.0523 6.5 10.5 6.94772 10.5 7.5V10.5C10.5 11.0523 10.0523 11.5 9.5 11.5H5.5C4.94772 11.5 4.5 11.0523 4.5 10.5V7.5C4.5 6.94772 4.94772 6.5 5.5 6.5ZM5.5 6.5V5.62132C5.5 4.44975 6.44975 3.5 7.62132 3.5C8.18393 3.5 8.7235 3.7235 9.12132 4.12132L9.5 4.5" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 11L7.5 4L14 11" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5 8.5L7.5 5.5L4.5 8.5M0.5 7.5C0.500001 3.63401 3.63401 0.499999 7.5 0.5C11.366 0.500001 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5C3.63401 14.5 0.499999 11.366 0.5 7.5Z" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 9L7 6L4 9" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.5 1.5L13.5 13.5M1.5 13.5L13.5 1.5" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 4.5L10.5 10.5M4.5 10.5L10.5 4.5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.5 4.5L10.5 10.5M4.5 10.5L10.5 4.5" stroke="#1D1929"/>
+            </svg>
 
         </div>    
     </div>
@@ -365,7 +425,7 @@
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(11, 1fr);
     gap: 2rem;
 }
 
