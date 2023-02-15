@@ -1,14 +1,38 @@
+<script setup>
+
+import { strokeIcons } from '../../data/icons'
+
+</script>
 <template>
     <div class="container">
         <h3>Basics</h3>
         <div class="icons">
+        
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 1V14M1 7.5H14" stroke="#1D1929"/>
             </svg>
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 7.5H14" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.5 1.5L13.5 13.5M1.5 13.5L13.5 1.5" stroke="#1D1929"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 7L5.5 11.5L14 3" stroke="#1D1929" stroke-linecap="square"/>
+            </svg>
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 13.5V13H7V13.5H8ZM7 13.51V14.01H8V13.51H7ZM7 1V11H8V1H7ZM7 13.5V13.51H8V13.5H7Z" fill="#1D1929"/>
+            </svg>
+
+
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.5 4V11M4 7.5H11" stroke="#1D1929"/>
             </svg>  
+
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.25 13.75L11.25 9.75M7.25 13.75L3.25 9.75M7.25 13.75V1.25" stroke="#1D1929"/>
@@ -145,10 +169,7 @@
             <path d="M4.5 8.5L4.14645 8.14645L4 8.29289V8.5H4.5ZM8.5 4.5L8.85355 4.14645C8.65829 3.95118 8.34171 3.95118 8.14645 4.14645L8.5 4.5ZM10.5 6.5L10.8536 6.85355C11.0488 6.65829 11.0488 6.34171 10.8536 6.14645L10.5 6.5ZM6.5 10.5V11H6.70711L6.85355 10.8536L6.5 10.5ZM4.5 10.5H4C4 10.7761 4.22386 11 4.5 11V10.5ZM4.85355 8.85355L8.85355 4.85355L8.14645 4.14645L4.14645 8.14645L4.85355 8.85355ZM8.14645 4.85355L10.1464 6.85355L10.8536 6.14645L8.85355 4.14645L8.14645 4.85355ZM10.1464 6.14645L6.14645 10.1464L6.85355 10.8536L10.8536 6.85355L10.1464 6.14645ZM6.5 10H4.5V11H6.5V10ZM5 10.5V8.5H4V10.5H5Z" fill="#1D1929"/>
             </svg>
 
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 13.5V13H7V13.5H8ZM7 13.51V14.01H8V13.51H7ZM7 1V11H8V1H7ZM7 13.5V13.51H8V13.5H7Z" fill="#1D1929"/>
-            </svg>
-
+           
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 10.5V10H7V10.5H8ZM7 10.51V11.01H8V10.51H7ZM7 4V8H8V4H7ZM7 10.5V10.51H8V10.5H7ZM7.5 14C3.91015 14 1 11.0899 1 7.5H0C0 11.6421 3.35786 15 7.5 15V14ZM14 7.5C14 11.0899 11.0899 14 7.5 14V15C11.6421 15 15 11.6421 15 7.5H14ZM7.5 1C11.0899 1 14 3.91015 14 7.5H15C15 3.35786 11.6421 0 7.5 0V1ZM7.5 0C3.35786 0 0 3.35786 0 7.5H1C1 3.91015 3.91015 1 7.5 1V0Z" fill="#1D1929"/>
             </svg>
@@ -222,9 +243,7 @@
             <path d="M5 6H9M5 6C4.44772 6 4 6.44772 4 7V10C4 10.5523 4.44772 11 5 11H9C9.55228 11 10 10.5523 10 10V7C10 6.44772 9.55228 6 9 6M5 6V5C5 3.89543 5.89543 3 7 3C8.10457 3 9 3.89543 9 5V6" stroke="#1D1929"/>
             </svg>
 
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 7.5H14" stroke="#1D1929"/>
-            </svg>
+          
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4 7.5H11M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929"/>
@@ -356,9 +375,7 @@
             <path d="M9.5 5.5H5.5V9.5H9.5V5.5Z" stroke="#1D1929"/>
             </svg>
 
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 7L5.5 11.5L14 3" stroke="#1D1929" stroke-linecap="square"/>
-            </svg>
+           
 
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -395,9 +412,7 @@
             <path d="M10 9L7 6L4 9" stroke="#1D1929" stroke-linecap="square"/>
             </svg>
 
-            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.5 1.5L13.5 13.5M1.5 13.5L13.5 1.5" stroke="#1D1929"/>
-            </svg>
+            
 
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.5 4.5L10.5 10.5M4.5 10.5L10.5 4.5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="#1D1929"/>
@@ -457,7 +472,7 @@
 }
 
 
-.icon__basic{
+.icons svg{
     cursor: pointer;
 }
 </style>
