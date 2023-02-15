@@ -64,6 +64,13 @@ const config = {
   
           ],
         },
+        {
+          text: 'Typescript',
+          collapsed: true,
+          items: [
+            { text: 'Iniciando', link: '/guide/typescript/iniciando' },                 
+          ],
+        }
       ],
     },
 }
