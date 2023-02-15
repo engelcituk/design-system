@@ -17,7 +17,7 @@ $ tsc --version
 
 ## Compilar un archivo TS	
 
-Para compilar un archivo TS, podemos empezar con crear una carpeta con el nombre TypeScript (o el que quieras), y la abrimos con un editor de código como visual studio code, dentro de la carpeta creamos un archivo con el nombre **index.html**
+Para compilar un archivo TS, podemos empezar con crear una carpeta con el nombre typescript (o el que quieras), y la abrimos con un editor de código como visual studio code, dentro de la carpeta creamos un archivo con el nombre **index.html**
 
 ```html
 <!DOCTYPE html>
@@ -52,6 +52,25 @@ No hay necesidad de poner al nombre del archivo el **.ts**. Esto creará un arch
 En resumen los navegadores web no pueden correr el código TypeScript directamente, necesita ser traducido a su versión JavaScript para que el navegador web lo pueda interpretar. Mediante el comando **tsc** lo convertimos de TypeScript a JavaScript.
 
 ## Modo Observador - Watch Mode	
+
+En TypeScript existe lo que se conoce como Modo Observador, quiere decir que TypeScript va a estar pendiente de cualquier cambio que suceda en los archivos con extensiones .ts y automáticamente lo va a compilar a su versión de JavaScript.
+
+```sh 
+$ tsc nombre-del-archivo -w 
+```
+
+o 
+
+```sh 
+$ tsc app -w 
+```
+Esto va iniciar un servicio que va a estar escuchando cualquier cambio. Para cancelar el observador de TypeScript presiona **control** + **C**
+
+::: tip
+Hasta ahora la traducción que hace TypeScript a su versión JavaScript es a solo un archivo.
+Para hacerlo a varios archivos a la vez, implica hacer uso de un **tsconfig**
+:::
+
 ## Inicializar el proyecto de TypeScript - tsconfig	
 <!-- 
 ::: code-group
