@@ -70,6 +70,21 @@ const config = {
           items: [
             { text: 'Iniciando', link: '/guide/typescript/iniciando' },                 
           ],
+        },
+        {
+          text: 'Sass',
+          collapsed: true,
+          items: [
+            { text: 'Introduccción', link: '/guide/typescript/iniciando' },                 
+            { text: 'Variables en sass', link: '/guide/typescript/iniciando' },                 
+            { text: 'Interpolación y nesting', link: '/guide/typescript/iniciando' },                 
+            { text: 'Valores en sass', link: '/guide/typescript/iniciando' },                 
+            { text: 'Estructuras de control', link: '/guide/typescript/iniciando' },                 
+            { text: 'Mixins y funciones', link: '/guide/typescript/iniciando' },                 
+            { text: 'Listas y mapas avanzados', link: '/guide/typescript/iniciando' },                 
+            { text: 'Módulos en sass', link: '/guide/typescript/iniciando' },                 
+            { text: 'Extend en sass', link: '/guide/typescript/iniciando' },                 
+          ],
         }
       ],
     },
