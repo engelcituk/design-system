@@ -143,7 +143,7 @@ export const colorShades = {
         five: { name: 'purple-5', code: '#E18CF9' },
         six: { name: 'purple-6', code: '#E49AFA' },
         seven: { name: 'purple-7', code: '#E8A9FB' },
-        eight: { name: 'purple-8', code: '#FA9494' },
+        eight: { name: 'purple-8', code: '#ECB7FC' },
         nine: { name: 'purple-9', code: '#F0C5FC' },
         ten: { name: 'purple-10', code: '#F4D4FD' },
         eleven: { name: 'purple-11', code: '#F7E2FE' },

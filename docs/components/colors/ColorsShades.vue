@@ -127,7 +127,7 @@
             <div class="color__base purple-5" @click="copyShadeColor('purple', 'five')">#E18CF9</div>        
             <div class="color__base purple-6" @click="copyShadeColor('purple', 'six')">#E49AFA</div>        
             <div class="color__base purple-7" @click="copyShadeColor('purple', 'seven')">#E8A9FB</div>        
-            <div class="color__base purple-8" @click="copyShadeColor('purple', 'eight')">#FA9494</div>  
+            <div class="color__base purple-8" @click="copyShadeColor('purple', 'eight')">#ECB7FC</div>  
             <div class="color__base purple-9" @click="copyShadeColor('purple', 'nine')">#F0C5FC</div>        
             <div class="color__base purple-10" @click="copyShadeColor('purple', 'ten')">#F4D4FD</div>        
             <div class="color__base purple-11" @click="copyShadeColor('purple', 'eleven')">#F7E2FE</div>        
