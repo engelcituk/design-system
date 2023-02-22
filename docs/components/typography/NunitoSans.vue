@@ -7,7 +7,7 @@
                 <div class="font__title black">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>Black | 900</p>
+                    <p>black-weight | 900</p>
                 </div>
             </div>
 
@@ -15,14 +15,14 @@
                 <div class="font__title extra-bold">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>ExtraBold | 800</p>
+                    <p>xbold-weight | 800</p>
                 </div>
             </div>
             <div class="typo">
                 <div class="font__title bold">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>Bold | 700 </p>
+                    <p>bold-weight | 700 </p>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@
                 <div class="font__title semi-bold">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>SemiBold | 600</p>
+                    <p>semibold-weight | 600</p>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                 <div class="font__title regular">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>Regular | 400 </p>
+                    <p>normal-weight | 400 </p>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                 <div class="font__title light">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>Light | 300</p>
+                    <p>light-weight | 300</p>
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
                 <div class="font__title extra-light">Aa</div>
                 <div class="font__detail">
                     <p>Nunito Sans</p>
-                    <p>ExtraLight | 200 </p>
+                    <p>thin-weight | 200 </p>
                 </div>
             </div>
 
