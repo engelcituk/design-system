@@ -85,7 +85,15 @@ const config = {
             { text: 'Módulos en sass', link: '/guide/sass/iniciando'  },                 
             { text: 'Extend en sass', link: '/guide/sass/iniciando'  },                 
           ],
-        }
+        },
+        {
+          text: 'Git',
+          collapsed: true,
+          items: [
+            { text: 'Conceptos Básicos', link: '/guide/git/conceptos-basicos' },                 
+            { text: 'Comandos', link: '/guide/git/comandos'  },              
+          ],
+        },
       ],
     },
 }
