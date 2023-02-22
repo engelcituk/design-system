@@ -21,7 +21,7 @@
             <div class="gradient purple-to-pink" @click="copyGradient('purpleToPink')">Purple to Pink</div>        
             <div class="gradient red-to-orange" @click="copyGradient('redToOrange')">Red to Orange</div>  
 
-            <div class="gradient orange-to-yellow" @click="copyGradient('orangeToYello')">Orange to Yellow</div>        
+            <div class="gradient orange-to-yellow" @click="copyGradient('orangeToYellow')">Orange to Yellow</div>        
             <div class="gradient red-to-yellow" @click="copyGradient('redToYellow')">Red to Yellow</div>        
             <div class="gradient purple-to-yellow" @click="copyGradient('purpleToYellow')">Purple to Yellow</div>        
             <div class="gradient purple-to-orange" @click="copyGradient('purpleToOrange')">Purple to Orange</div>        
